@@ -8,13 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>GREENG GROCER</title>
+    <title>Organic farming</title>
     <link rel="stylesheet" href="style.css">
-    <s tyle>
-      body{
-        background-color: rgba(128, 128, 128, 0.253);
-      }
-    </s>
+    
     
   </head>
   <body>
@@ -39,17 +35,13 @@
                 <label class="form-check-label">
                   <input class="form-check-input" type="checkbox" name="remember"> Remember me
                 </label>
-                <a href="#" data-bs-toggle="modal" data-bs-target="#registerModal" style="float:right">Register</a>
               </div>
-	      <div class="text-center">	
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
             </form>
           </div>
         </class>
       </div>
     </div>
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="show">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html"><b style="color:green"><img class="img-1" src="./images/icon.jpg"> GREEN GROCER</b></a>
@@ -78,7 +70,7 @@
             <!-- <li class="nav-item">
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </li> -->
-          </ul> 
+          </ul>
           <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
             <li>
 	   	<form class="d-flex mb-0">
@@ -100,109 +92,34 @@
         </div>
       </div>
     </nav>
-    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <class class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">REGISTRATION FORM</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <form name="RegForm" method="post" onsubmit="return validate();">
-              <div class="mb-3">
-                <label for="pwd" class="form-label">Full Name:</label>
-                <input type="text" class="form-control" id="pwd" placeholder="Full Name" name="name">
-		<span id="nameErr" class="error"></span>
 
-              </div>
-              <div class="mb-3 mt-3">
-                <label for="email" class="form-label">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-		<span id="emailErr" class="error"></span>
-              </div>
-              <div class="mb-3">
-                <label for="mobile" class="form-label">Mobile Number:</label>
-                <input type="text" class="form-control" id="mobile" placeholder="Enter Mobile Number" name="mobile">
-                <span id="mobileErr" class="error"></span>
-              </div>
-              <div class="mb-3">
-                <label for="pwd" class="form-label"> Password:</label>
-                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
-                <span id="pwdErr" class="error"></span>
-              </div>
-              <input type="submit" class="btn btn-primary" value="Submit" name="Submit" style="float:right"/>
-            <input type="reset" class=" btn btn-outline-primary" value="Reset" name="Reset" />
-            </form>
-          </div>
-        </class>
+      <div class="heading">
+      <h1><b>Organic Farming</b></h1><br>
+      <!-- <img class="img-1" src="./images/organic farming photo.jpg"> -->
+      <p><img class="pic" src="./images/organic farming photo.jpg" style="float: left;" width="400px" height="300px">Organic agriculture is a production system that sustains the health of soils, ecosystems and people. It relies on ecological processes, biodiversity and cycles adapted to local conditions, rather than the use of inputs with adverse effects. Organic agriculture combines tradition, innovation and science to benefit the shared environment and promote fair relationships and a good quality of life for all involved..."
+
+        — International Federation of Organic Agriculture Movements[39]
+        Organic farming methods combine scientific knowledge of ecology and some modern technology with traditional farming practices based on naturally occurring biological processes. Organic farming methods are studied in the field of agroecology. While conventional agriculture uses synthetic pesticides and water-soluble synthetically purified fertilizers, organic farmers are restricted by regulations to using natural pesticides and fertilizers. An example of a natural pesticide is pyrethrin, which is found naturally in the Chrysanthemum flower. The principal methods of organic farming include crop rotation, green manures and compost, biological pest control, and mechanical cultivation. These measures use the natural environment to enhance agricultural productivity: legumes are planted to fix nitrogen into the soil, natural insect predators are encouraged, crops are rotated to confuse pests and renew soil, and natural materials such as potassium bicarbonate[40] and mulches are used to control disease and weeds. Genetically modified seeds and animals are excluded.
+        
+        While organic is fundamentally different from conventional because of the use of carbon-based fertilizers compared with highly soluble synthetic based fertilizers and biological pest control instead of synthetic pesticides, organic farming and large-scale conventional farming are not entirely mutually exclusive. Many of the methods developed for organic agriculture have been borrowed by more conventional agriculture. For example, Integrated Pest Management is a multifaceted strategy that uses various organic methods of pest control whenever possible, but in conventional farming could include synthetic pesticides only as a last resort.[41]
+        
+        </p>
       </div>
-    </div>
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./images/slide-3.jpg" class="d-block w-100" alt="..." >
-          </div>
-          <div class="carousel-item">
-            <img src="./images/slide-1.jpg" class="d-block w-100" alt="..."  >
-          </div>
-          <div class="carousel-item">
-            <img src="./images/slide-2.jpg" class="d-block w-100" alt="..." >
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <div class="container group" >
-        <div class="row">
-          <div class="col">
-            <figure class="figure">
-              <img src="./images/fruit group-2.jpg" class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption">FRUITS</figcaption>
-            </figure>
-          </div>
-          <div class="col">
-            <figure class="figure">
-              <img src="./images/vegetable group-2.jpg" class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption">VEGETABLES</figcaption>
-            </figure>
-          </div>
-          <div class="col">
-            <figure class="figure">
-              <img src="./images/leafy vegetables.jpg" class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption">LEAFY VEGETABLES</figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
-       <div class="view">
-            <button type="button" class="btn btn-warning"><a class="pro" href="./products.html">VIEW ALL PRODUCTS</a></button>
-          </div>
-          
-            
-          
     <!-- <h1>Hello, world!</h1> -->
 
     <!-- Optional JavaScript; choose one of the two! -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    
+    <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
     
-    <script src="validations.js"></script>
+
+    
+
   </body>
 </html>
